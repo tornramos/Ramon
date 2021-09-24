@@ -1,0 +1,58 @@
+import java.util.Scanner;
+
+public class MadLibs {
+
+   public static void main(String[] args) {
+   
+      findWords();
+      
+   }
+   
+   //user is prompted twelve words, program outputs a story using the twelve words
+   public static void findWords() {
+      
+      Scanner scanner = new Scanner(System.in);
+      
+      System.out.println("Please enter a verb:");
+      String verb1 = scanner.nextLine();
+      System.out.println("Please enter a noun:");
+      String noun1 = scanner.nextLine();
+      System.out.println("Please enter a name:");
+      String name = scanner.nextLine();
+      System.out.println("Please enter a store name:");
+      String store = scanner.nextLine();
+      System.out.println("Please enter an emotion:");
+      String emotion = scanner.nextLine();
+      System.out.println("Please enter a noun:");
+      String noun2 = scanner.nextLine();
+      System.out.println("Please enter a verb:");
+      String verb2 = scanner.nextLine();
+      System.out.println("Please enter a color:");
+      String color = scanner.nextLine();
+      System.out.println("Please enter an adverb:");
+      String adverb = scanner.nextLine();
+      System.out.println("Please enter an adjective:");
+      String adjective = scanner.nextLine();
+      System.out.println("Please enter a noun:");
+      String noun3 = scanner.nextLine();
+      System.out.println("Please enter a noun:");
+      String noun4 = scanner.nextLine();
+      
+      System.out.println("=================================================");
+      System.out.println("Wet Worker"); //title of story
+      System.out.println("=================================================");
+      System.out.println("\nMy friends always " + emotion + " sharing this story, and that never stops them from bringing it up every we talk about " + store + ". ");
+      System.out.println("As I've been told, it started when " + name + " invited people from the group to go to " + store + " to eat. While " + verb1 + " their");
+      System.out.println(color + " " + noun1 + ", they went through the drive-thru for " + adjective + " service. It happened to be a rainy " + noun4 + " so their");
+      System.out.println(noun1 + " wipers had to be on. They ordered their " + noun2 + " after looking at the " + noun3 + " and proceeded to the window to");
+      System.out.println(verb2 + ". Now, this is why they " + emotion + " telling the story. The " + store + "'s drive-thru window didn't have a cover, so");
+      System.out.println("when " + name + " pulled up to the window, they didn't realize they still had their " + noun1 + " wipers on and " + adverb + " drenched");
+      System.out.println("the poor drive-thru worker. I always wish I could've been there when it happened! Ever since then, this story ");
+      System.out.println("always gets brought up whenever " + name + " says " + store + "'s " + noun2 + " tastes bad.");
+      //based on a real story! if the words were not switched around
+      
+      scanner.close();
+   }
+}
+      
+     
